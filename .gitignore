@@ -1,0 +1,19 @@
+# Rust / Tauri build output
+/src-tauri/target
+/target
+
+# Node
+/node_modules
+
+# WebView2 data folder (AI model cache, IndexedDB, etc.)
+# This can be multiple GB and is machine-specific — never commit it.
+/webview2data
+/src-tauri/webview2data
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Tauri auto-generated (regenerated on build, no need to commit)
+/src-tauri/gen

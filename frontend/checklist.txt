@@ -1,0 +1,83 @@
+KEY:  1 = works fine   2 = has bugs   3 = not working at all
+
+🏠 Home Dashboard
+1. Streak count displays and matches sidebar badge                                            ┃  ┃
+2. Cards Due tile shows correct number, clicking jumps to SRS                                 ┃  ┃
+3. Vocab Saved tile shows correct count, clicking jumps to Vocab                              ┃  ┃
+4. Kanji Tagged tile shows correct count, clicking jumps to JLPT Prep                         ┃  ┃
+5. JLPT progress bars render (N5-N1) with correct counts                                      ┃  ┃
+6. Recent AI Partner Chats list shows up to 3, clicking opens that chat in AI Partner         ┃  ┃
+
+📊 Grammar Visualizer
+7. Default example sentence loads and analyzes correctly                                      ┃  ┃
+8. Quick example buttons work                                                                 ┃  ┃
+9. Furigana toggle (Settings) reflects here                                                   ┃  ┃
+10. Romaji toggle (Settings) reflects here                                                    ┃  ┃
+
+🧠 SRS Flashcards
+11. Deck list shows correctly                                                                 ┃  ┃
+12. Card flip/review flow works                                                               ┃  ┃
+13. Mastery stats update after review                                                         ┃  ┃
+14. Switching decks works                                                                     ┃  ┃
+
+🎙️ Shadowing
+15. Practice library list loads                                                               ┃  ┃
+16. Selecting a sentence updates target text                                                  ┃  ┃
+17. "Listen to Native Audio" plays TTS                                                        ┃  ┃
+18. Mic recording + speech recognition compares correctly                                     ┃  ┃
+19. Feedback (match/close) displays properly                                                  ┃  ┃
+
+✍️ Sentence Builder
+20. Loads a sentence to practice                                                              ┃  ┃
+21. Chunk dragging/ordering works                                                             ┃  ┃
+22. "Generate Chunks & Insight" (AI) works - chunks split correctly, in English               ┃  ┃
+23. Fallback (non-AI) generator still works if Local AI is off                                ┃  ┃
+
+🏷️ Vocab
+24. Vocab list displays, filterable by tag                                                    ┃  ┃
+25. Add Word modal opens                                                                      ┃  ┃
+26. Vocab autocomplete (AI) works when Local AI is on, shows error clearly if it fails        ┃  ┃
+27. Kanjium pitch-accent lookup button works (needs internet)                                 ┃  ┃
+28. AI pitch-accent guess button works (fallback)                                             ┃  ┃
+29. Pronunciation preview (TTS) works                                                         ┃  ┃
+
+🎓 JLPT Prep
+30. Level tiles/landing works                                                                 ┃  ┃
+31. Kanji grid per level shows correctly                                                      ┃  ┃
+32. Reading passages per level show correctly                                                 ┃  ┃
+33. "Practice this level's vocab" link works                                                  ┃  ┃
+
+💬 AI Partner
+34. New Chat button works, blocks at 5 chats with toast                                       ┃  ┃
+35. Star/unstar moves chat between sections correctly                                         ┃  ┃
+36. Rename works                                                                              ┃  ┃
+37. Delete works (with confirm), auto-selects another chat                                    ┃  ┃
+38. Sending a message gets a real (non-echoed) AI reply                                       ┃  ┃
+39. Correction box appears only for genuine mistakes                                          ┃  ┃
+40. Reply is in real Japanese script (no romaji drift)                                        ┃  ┃
+41. English translation is accurate                                                           ┃  ┃
+42. Mic button transcribes speech into the input box                                          ┃  ┃
+43. Listen button plays each message correctly                                                ┃  ┃
+44. Voice Mode toggle auto-speaks AI replies when on                                          ┃  ┃
+45. Chat history persists after restart                                                       ┃  ┃
+
+🗄️ Data Manager
+46. All sub-tabs load (Examples, Shadowing, Sentence Builder, Vocab, Kanji, Reading, Decks)   ┃  ┃
+47. Add/edit/delete works in each sub-tab                                                     ┃  ┃
+48. Export backup works                                                                       ┃  ┃
+49. Import backup restores data correctly                                                     ┃  ┃
+
+⚙️ Settings
+50. Furigana/Romaji toggles work app-wide                                                     ┃  ┃
+51. Local AI toggle works                                                                     ┃  ┃
+52. Model dropdown + Load Model works, shows progress                                         ┃  ┃
+53. Clear Cached Model works, doesn't touch app data                                          ┃  ┃
+54. Factory Reset works (double-confirms, wipes app data, leaves AI model intact)             ┃  ┃
+
+🈴 Kanji Explain
+55. Clicking a kanji in Grammar Visualizer opens the modal with real content    			  ┃  ┃
+56. Clicking a kanji in Vocab opens the modal, doesn't also toggle the card    		 		  ┃  ┃
+
+💪 Weak Words
+57. Get an SRS card wrong a few times, then "Practice Weak Words" works         			  ┃  ┃
+58. Button correctly blocks/warns if no weak words yet or Local AI is off       			  ┃  ┃		  
