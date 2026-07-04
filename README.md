@@ -66,6 +66,6 @@ KakehashiApp/
 
 ## License
 
-No license file has been added yet — all rights reserved by default until one is chosen. If you're the repo owner and want this open for others to use/modify, consider adding an [MIT](https://choosealicense.com/licenses/mit/) or [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
+All Rights Reserved. See [LICENSE](./LICENSE) for details. This repository is public for portfolio/demonstration purposes — it is not open source, and no permission is granted to reuse, copy, or redistribute the code without explicit permission from the author.
 
 Third-party datasets bundled/fetched by the app retain their own original licenses (see Data Sources above).
